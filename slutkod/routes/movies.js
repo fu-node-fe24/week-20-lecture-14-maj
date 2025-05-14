@@ -92,7 +92,6 @@ router.put('/:id', (req, res) => {
     }
 });
 
-
 // DELETE movie by ID
 router.delete('/:id', (req, res) => {
     const { id } = req.params;
